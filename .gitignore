@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# Virtual env
+.venv/
+
+# Data outputs and logs (keep repo light)
+data/*.csv
+!data/README.md
+data/*.log
+data/*.out
+
+# Editor/OS
+.idea/
+.vscode/
+.history/
+.Trash/
