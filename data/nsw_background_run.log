@@ -1,0 +1,181 @@
+[NSW] OFFSET=500 Fri Sep 12 21:37:09 AEST 2025
+. .venv/bin/activate; python -V; pip install -r requirements.txt
+Python 3.13.1
+Requirement already satisfied: pandas>=2.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (2.3.2)
+Requirement already satisfied: geopandas>=0.14 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: shapely>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (2.1.1)
+Requirement already satisfied: pyproj>=3.6 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.7.2)
+Requirement already satisfied: rapidfuzz>=3.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (3.14.1)
+Requirement already satisfied: requests>=2.31 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (2.32.5)
+Requirement already satisfied: urllib3>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: tenacity>=8.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (9.1.2)
+Requirement already satisfied: python-dateutil>=2.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (2.9.0.post0)
+Requirement already satisfied: numpy>=1.26.0 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2.3.3)
+Requirement already satisfied: pytz>=2020.1 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: pyogrio>=0.7.2 in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (0.11.1)
+Requirement already satisfied: packaging in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (25.0)
+Requirement already satisfied: certifi in ./.venv/lib/python3.13/site-packages (from pyproj>=3.6->-r requirements.txt (line 4)) (2025.8.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.10)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.13/site-packages (from python-dateutil>=2.9->-r requirements.txt (line 9)) (1.17.0)
+
+[notice] A new release of pip is available: 24.3.1 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+.venv/bin/python -m src.area_nsw --in data/parks_merged_nsw.csv --out data/parks_merged_nsw.csv --limit 100 --offset 500 --sleep 0.2 
+Wrote data/parks_merged_nsw.csv
+[NSW] OFFSET=600 Fri Sep 12 21:42:41 AEST 2025
+. .venv/bin/activate; python -V; pip install -r requirements.txt
+Python 3.13.1
+Requirement already satisfied: pandas>=2.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (2.3.2)
+Requirement already satisfied: geopandas>=0.14 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: shapely>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (2.1.1)
+Requirement already satisfied: pyproj>=3.6 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.7.2)
+Requirement already satisfied: rapidfuzz>=3.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (3.14.1)
+Requirement already satisfied: requests>=2.31 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (2.32.5)
+Requirement already satisfied: urllib3>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: tenacity>=8.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (9.1.2)
+Requirement already satisfied: python-dateutil>=2.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (2.9.0.post0)
+Requirement already satisfied: numpy>=1.26.0 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2.3.3)
+Requirement already satisfied: pytz>=2020.1 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: pyogrio>=0.7.2 in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (0.11.1)
+Requirement already satisfied: packaging in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (25.0)
+Requirement already satisfied: certifi in ./.venv/lib/python3.13/site-packages (from pyproj>=3.6->-r requirements.txt (line 4)) (2025.8.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.10)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.13/site-packages (from python-dateutil>=2.9->-r requirements.txt (line 9)) (1.17.0)
+
+[notice] A new release of pip is available: 24.3.1 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+.venv/bin/python -m src.area_nsw --in data/parks_merged_nsw.csv --out data/parks_merged_nsw.csv --limit 100 --offset 600 --sleep 0.2 
+Wrote data/parks_merged_nsw.csv
+[NSW] OFFSET=700 Fri Sep 12 21:48:11 AEST 2025
+. .venv/bin/activate; python -V; pip install -r requirements.txt
+Python 3.13.1
+Requirement already satisfied: pandas>=2.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (2.3.2)
+Requirement already satisfied: geopandas>=0.14 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: shapely>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (2.1.1)
+Requirement already satisfied: pyproj>=3.6 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.7.2)
+Requirement already satisfied: rapidfuzz>=3.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (3.14.1)
+Requirement already satisfied: requests>=2.31 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (2.32.5)
+Requirement already satisfied: urllib3>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: tenacity>=8.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (9.1.2)
+Requirement already satisfied: python-dateutil>=2.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (2.9.0.post0)
+Requirement already satisfied: numpy>=1.26.0 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2.3.3)
+Requirement already satisfied: pytz>=2020.1 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: pyogrio>=0.7.2 in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (0.11.1)
+Requirement already satisfied: packaging in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (25.0)
+Requirement already satisfied: certifi in ./.venv/lib/python3.13/site-packages (from pyproj>=3.6->-r requirements.txt (line 4)) (2025.8.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.10)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.13/site-packages (from python-dateutil>=2.9->-r requirements.txt (line 9)) (1.17.0)
+
+[notice] A new release of pip is available: 24.3.1 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+.venv/bin/python -m src.area_nsw --in data/parks_merged_nsw.csv --out data/parks_merged_nsw.csv --limit 100 --offset 700 --sleep 0.2 
+Wrote data/parks_merged_nsw.csv
+[NSW] OFFSET=800 Fri Sep 12 22:05:36 AEST 2025
+. .venv/bin/activate; python -V; pip install -r requirements.txt
+Python 3.13.1
+Requirement already satisfied: pandas>=2.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (2.3.2)
+Requirement already satisfied: geopandas>=0.14 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: shapely>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (2.1.1)
+Requirement already satisfied: pyproj>=3.6 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.7.2)
+Requirement already satisfied: rapidfuzz>=3.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (3.14.1)
+Requirement already satisfied: requests>=2.31 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (2.32.5)
+Requirement already satisfied: urllib3>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: tenacity>=8.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (9.1.2)
+Requirement already satisfied: python-dateutil>=2.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (2.9.0.post0)
+Requirement already satisfied: numpy>=1.26.0 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2.3.3)
+Requirement already satisfied: pytz>=2020.1 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: pyogrio>=0.7.2 in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (0.11.1)
+Requirement already satisfied: packaging in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (25.0)
+Requirement already satisfied: certifi in ./.venv/lib/python3.13/site-packages (from pyproj>=3.6->-r requirements.txt (line 4)) (2025.8.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.10)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.13/site-packages (from python-dateutil>=2.9->-r requirements.txt (line 9)) (1.17.0)
+
+[notice] A new release of pip is available: 24.3.1 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+.venv/bin/python -m src.area_nsw --in data/parks_merged_nsw.csv --out data/parks_merged_nsw.csv --limit 100 --offset 800 --sleep 0.2 
+Wrote data/parks_merged_nsw.csv
+[NSW] OFFSET=900 Fri Sep 12 22:11:08 AEST 2025
+. .venv/bin/activate; python -V; pip install -r requirements.txt
+Python 3.13.1
+Requirement already satisfied: pandas>=2.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (2.3.2)
+Requirement already satisfied: geopandas>=0.14 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: shapely>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (2.1.1)
+Requirement already satisfied: pyproj>=3.6 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.7.2)
+Requirement already satisfied: rapidfuzz>=3.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (3.14.1)
+Requirement already satisfied: requests>=2.31 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (2.32.5)
+Requirement already satisfied: urllib3>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: tenacity>=8.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (9.1.2)
+Requirement already satisfied: python-dateutil>=2.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (2.9.0.post0)
+Requirement already satisfied: numpy>=1.26.0 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2.3.3)
+Requirement already satisfied: pytz>=2020.1 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: pyogrio>=0.7.2 in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (0.11.1)
+Requirement already satisfied: packaging in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (25.0)
+Requirement already satisfied: certifi in ./.venv/lib/python3.13/site-packages (from pyproj>=3.6->-r requirements.txt (line 4)) (2025.8.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.10)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.13/site-packages (from python-dateutil>=2.9->-r requirements.txt (line 9)) (1.17.0)
+
+[notice] A new release of pip is available: 24.3.1 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+.venv/bin/python -m src.area_nsw --in data/parks_merged_nsw.csv --out data/parks_merged_nsw.csv --limit 100 --offset 900 --sleep 0.2 
+Wrote data/parks_merged_nsw.csv
+[NSW] OFFSET=1000 Fri Sep 12 22:16:39 AEST 2025
+. .venv/bin/activate; python -V; pip install -r requirements.txt
+Python 3.13.1
+Requirement already satisfied: pandas>=2.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (2.3.2)
+Requirement already satisfied: geopandas>=0.14 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: shapely>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (2.1.1)
+Requirement already satisfied: pyproj>=3.6 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.7.2)
+Requirement already satisfied: rapidfuzz>=3.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (3.14.1)
+Requirement already satisfied: requests>=2.31 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (2.32.5)
+Requirement already satisfied: urllib3>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: tenacity>=8.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (9.1.2)
+Requirement already satisfied: python-dateutil>=2.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (2.9.0.post0)
+Requirement already satisfied: numpy>=1.26.0 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2.3.3)
+Requirement already satisfied: pytz>=2020.1 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: pyogrio>=0.7.2 in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (0.11.1)
+Requirement already satisfied: packaging in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (25.0)
+Requirement already satisfied: certifi in ./.venv/lib/python3.13/site-packages (from pyproj>=3.6->-r requirements.txt (line 4)) (2025.8.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.10)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.13/site-packages (from python-dateutil>=2.9->-r requirements.txt (line 9)) (1.17.0)
+
+[notice] A new release of pip is available: 24.3.1 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+.venv/bin/python -m src.area_nsw --in data/parks_merged_nsw.csv --out data/parks_merged_nsw.csv --limit 100 --offset 1000 --sleep 0.2 
+Wrote data/parks_merged_nsw.csv
+[NSW] OFFSET=1100 Fri Sep 12 22:22:10 AEST 2025
+. .venv/bin/activate; python -V; pip install -r requirements.txt
+Python 3.13.1
+Requirement already satisfied: pandas>=2.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 1)) (2.3.2)
+Requirement already satisfied: geopandas>=0.14 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: shapely>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 3)) (2.1.1)
+Requirement already satisfied: pyproj>=3.6 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 4)) (3.7.2)
+Requirement already satisfied: rapidfuzz>=3.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 5)) (3.14.1)
+Requirement already satisfied: requests>=2.31 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 6)) (2.32.5)
+Requirement already satisfied: urllib3>=2.0 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: tenacity>=8.2 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 8)) (9.1.2)
+Requirement already satisfied: python-dateutil>=2.9 in ./.venv/lib/python3.13/site-packages (from -r requirements.txt (line 9)) (2.9.0.post0)
+Requirement already satisfied: numpy>=1.26.0 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2.3.3)
+Requirement already satisfied: pytz>=2020.1 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in ./.venv/lib/python3.13/site-packages (from pandas>=2.2->-r requirements.txt (line 1)) (2025.2)
+Requirement already satisfied: pyogrio>=0.7.2 in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (0.11.1)
+Requirement already satisfied: packaging in ./.venv/lib/python3.13/site-packages (from geopandas>=0.14->-r requirements.txt (line 2)) (25.0)
+Requirement already satisfied: certifi in ./.venv/lib/python3.13/site-packages (from pyproj>=3.6->-r requirements.txt (line 4)) (2025.8.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in ./.venv/lib/python3.13/site-packages (from requests>=2.31->-r requirements.txt (line 6)) (3.10)
+Requirement already satisfied: six>=1.5 in ./.venv/lib/python3.13/site-packages (from python-dateutil>=2.9->-r requirements.txt (line 9)) (1.17.0)
+
+[notice] A new release of pip is available: 24.3.1 -> 25.2
+[notice] To update, run: pip install --upgrade pip
+.venv/bin/python -m src.area_nsw --in data/parks_merged_nsw.csv --out data/parks_merged_nsw.csv --limit 100 --offset 1100 --sleep 0.2 
